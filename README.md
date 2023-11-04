@@ -2,7 +2,7 @@
 
 Este repositorio cuenta con distintos clientes y servicios.
 
-Los servicios fueron realizados en Java y PHP, para ello, es necesario contar con XAMPP para el caso de PHP y mover la carpeta SOAP dentro de la siguiente ruta "C:\xampp\htdocs" dentro de su computador, una vez se haya movido, deberá encender el módulo de apache.
+Los servicios fueron realizados en Java y PHP, para ello, es necesario contar con XAMPP para el caso de PHP y mover la carpeta SOAP dentro de la siguiente ruta "C:\xampp\htdocs" dentro de su computador, una vez se haya movido, deberá encender el módulo de apache para que este funcione.
 
 Dentro de la carpetea de PHP se encuentra el servicio y el cliente de PHP.
 
