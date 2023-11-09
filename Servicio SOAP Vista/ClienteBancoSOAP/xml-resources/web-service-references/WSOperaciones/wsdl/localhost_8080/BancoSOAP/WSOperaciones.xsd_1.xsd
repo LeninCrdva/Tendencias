@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://ws/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws/">
+
+<xs:element name="cerrarSesion" type="tns:cerrarSesion"/>
+
+<xs:element name="cerrarSesionResponse" type="tns:cerrarSesionResponse"/>
+
+<xs:element name="consultarNombreUsuario" type="tns:consultarNombreUsuario"/>
+
+<xs:element name="consultarNombreUsuarioResponse" type="tns:consultarNombreUsuarioResponse"/>
+
+<xs:element name="consultarSaldo" type="tns:consultarSaldo"/>
+
+<xs:element name="consultarSaldoResponse" type="tns:consultarSaldoResponse"/>
+
+<xs:element name="depositarSaldo" type="tns:depositarSaldo"/>
+
+<xs:element name="depositarSaldoResponse" type="tns:depositarSaldoResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:element name="registrarCliente" type="tns:registrarCliente"/>
+
+<xs:element name="registrarClienteResponse" type="tns:registrarClienteResponse"/>
+
+<xs:element name="retirarSaldo" type="tns:retirarSaldo"/>
+
+<xs:element name="retirarSaldoResponse" type="tns:retirarSaldoResponse"/>
+
+<xs:complexType name="cerrarSesion">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="cerrarSesionResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="retirarSaldo">
+<xs:sequence>
+<xs:element name="saldo" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="retirarSaldoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registrarCliente">
+<xs:sequence>
+<xs:element name="user" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+<xs:element name="saldo" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="registrarClienteResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="consultarNombreUsuario">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="consultarNombreUsuarioResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="depositarSaldo">
+<xs:sequence>
+<xs:element name="saldo" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="depositarSaldoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="consultarSaldo">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="consultarSaldoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="usuario" type="xs:string" minOccurs="0"/>
+<xs:element name="contrasena" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

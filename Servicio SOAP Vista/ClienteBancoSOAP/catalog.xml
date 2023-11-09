@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ServicioWebSOAP/WSOperations?WSDL" uri="xml-resources/web-service-references/WSOperations/wsdl/localhost_8080/ServicioWebSOAP/WSOperations.wsdl"/>
+    <system systemId="http://localhost:8080/ServicioWebSOAP/WSOperations?xsd=1" uri="xml-resources/web-service-references/WSOperations/wsdl/localhost_8080/ServicioWebSOAP/WSOperations.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/BancoSOAP/WSOperaciones?WSDL" uri="xml-resources/web-service-references/WSOperaciones/wsdl/localhost_8080/BancoSOAP/WSOperaciones.wsdl"/>
+    <system systemId="http://localhost:8080/BancoSOAP/WSOperaciones?xsd=1" uri="xml-resources/web-service-references/WSOperaciones/wsdl/localhost_8080/BancoSOAP/WSOperaciones.xsd_1.xsd"/>
+</catalog>
