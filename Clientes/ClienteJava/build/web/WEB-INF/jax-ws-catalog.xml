@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
-    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSOperations?WSDL" uri="wsdl/localhost_8080/ServicioWeb_SOAP/WSOperations.wsdl"/>
-    <system systemId="http://localhost:8080/ServicioWeb_SOAP/WSOperations?xsd=1" uri="wsdl/localhost_8080/ServicioWeb_SOAP/WSOperations.xsd_1.xsd"/>
-    <system systemId="http://localhost/soap/Service.php?wsdl" uri="wsdl/localhost/soap/Service.php.wsdl"/>
-    <system systemId="http://localhost/soap/ServicePhp.php?wsdl" uri="wsdl/localhost/soap/ServicePhp.php.wsdl"/>
-</catalog>
